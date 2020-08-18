@@ -1,0 +1,320 @@
+@font-face
+{
+	src: url('Ubuntu-Regular.ttf');
+	font-family:'tekst';
+}
+body{
+  background-color:#efe6d6 ;
+  font-family:'tekst';
+} 
+p, a, h2, h1, label{
+ word-wrap:break-word;
+} 
+.form-control:focus {
+   border-color: #e1aa00;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #e1aa00;
+}
+.nav>li {
+	 border-radius:5px;
+	 margin-right:1px;
+}
+.nav>li>a {
+     color:#000;
+	 font-size:17px;
+
+}
+.nav>li>a:hover {
+     background-color: #e1aa00;
+	 border-radius:5px;
+}
+.aktivan {
+    background-color: #e1aa00;
+}
+.btn {
+    color: #fff;
+    background-color: #e1aa00;
+    border-color: #ccc;
+	border-radius:7px;
+}
+.btn:hover {
+    color: #e1aa00;
+    background-color: #fff;
+    border-color: #e1aa00;
+}
+
+.slicica .active{
+	border-radius:25px;
+}
+.slicica img{
+    width:100%;
+	border-radius:10px;
+}
+.levo.left { 
+	border-radius:10px;
+}
+.desno.right { 
+	border-radius:10px;
+}
+
+
+#naslov{
+  text-align:center;
+  margin-bottom:15px;
+  
+}
+#navigacija {
+  margin:5px 0px;
+}
+.clanak p{
+	font-size:17px;
+	color:#000;
+   
+}
+.clanak h2{
+	width:90%;
+	margin:0px auto;
+	padding-bottom:10px;
+	text-align:center;
+	color:#000;
+	
+	font-style:italic;
+}
+.clanak img{
+	
+	width:100%;
+	border-radius:8px;
+	margin-bottom:10px;
+}
+#naslov h2 {
+	font-size:40px;
+	font-weight:bold;
+	color:#000;
+	font-style:italic;
+}
+
+#logo h1{
+    font-size: 23px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+	font-weight:bold;
+	 color:#9d3f04;
+	 font-style:italic;
+}
+.slika h2{
+    font-size:45px;
+	font-weight:bold;
+}
+
+#futer{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	background-color:#9d3f04;
+}
+#copyright {
+	padding-top:15px;
+}
+#copyright p{
+	font-size:20px;
+	color:#e5e7e6;
+}
+#copyright a{
+	text-decoration:none;
+	color:#e1aa00;
+	font-weight:bold;
+}
+#copyright a:hover{
+	
+	 color:#e5e7e6;
+}
+#mreze{
+	padding-left:0px;
+	padding-right:0px;
+}
+#mreze ul{
+	display:flex;
+	flex-wrap:wrap;
+	padding-top:5px;
+	justify-content:space-around;
+	-webkit-padding-start:0px;
+	-moz-padding-start:0px;
+	
+}
+#mreze ul li{
+	
+	list-style-type:none;
+}
+
+#vrh{
+	height:30px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-color:#9d3f04;
+}
+#mreze ul li a{
+	font-size:30px;
+	color:#e5e7e6;
+	
+}
+#mreze ul li a:hover{
+	color:#e1aa00;
+}
+@media screen and (max-width: 768px){
+#copyright {
+	text-align:center;
+}
+.forma{
+	text-align:center;
+}
+}
+.clanak h2{
+	font-size:20px;
+}
+.clanak p{
+	text-align:justify;
+	}
+#naslov h2 {
+	font-size:25px;
+	
+}
+.slika h2{
+    font-size:30px;
+	
+}
+
+.navbar-toggle {
+    
+    border:1px solid #e1aa00;
+    
+}
+.navbar-toggle .icon-bar {
+    border:1px solid #e1aa00;
+}
+
+.ram {
+    
+    background-color: transparent;
+    border: 1px solid #e1aa00;
+    border-radius: 8px;
+   
+}
+.ram .caption {
+
+    color: #9d3f04;
+}
+.ram img{
+    
+    width:100%;
+    border-radius: 8px;
+   
+}
+
+.ram a:hover {
+	font-weight:bold;
+    text-decoration:none;
+	
+
+}
+.registracija{
+	float:none;
+	margin:20px auto;
+	border:2px solid #e1aa00;
+	border-radius:10px;
+	padding:20px;
+	padding-top:0px;
+}
+.registracija h2{
+	color:#9d3f04;
+	font-size:25px;
+	text-align:center;
+	font-weight:bold;
+}
+.registracija h2:first-child{
+	font-weight:bold;
+	font-size:35px;
+	
+}
+.registracija h2:first-child::first-letter{
+	
+	font-size:40px;
+	
+}
+.registracija p{
+	font-size:18px;
+	color:#e1aa00;
+	font-weight:bold;
+}
+
+#cek{
+	margin-bottom:10px;
+
+}
+#cek p{
+	color:#e1aa00;
+	font-size:22px;
+}
+
+.forma label{
+	color:#9d3f04;
+	font-size:20px;
+
+}
+.option{
+	color:#9d3f04;
+	font-size:20px;
+}
+#okvir{
+	margin:10px auto;
+	float:none;
+	
+}
+.razmak{
+	margin-top:20px;
+}
+#slikaAutora img{
+	width:100%;
+	margin-bottom:15px;
+	border-radius:10px;
+}
+#slikaAutora img:hover{
+	opacity:0.9;
+}
+#biografija p{
+	font-size:18px;
+	color:#000;
+	text-align:justify;
+}
+#ime{
+	margin-bottom:15px;
+	border-bottom:2px solid #9d3f04;
+}
+#ime h2{
+	font-size:35px;
+	color:#e1aa00;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#ime p{
+	font-size:20px;
+	color:#9d3f04;
+}
+
+
+
+@media screen and (max-width: 300px){
+#logo h1, #naslov h2, .slika h2, #ime h2, .registracija h2, .registracija h2:first-child, .registracija h2:first-child::first-letter { 
+	font-size: 20px;
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
